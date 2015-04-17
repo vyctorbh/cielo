@@ -50,3 +50,8 @@ tmtags
 # For rubinius:
 #*.rbc
 .rvmrc
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

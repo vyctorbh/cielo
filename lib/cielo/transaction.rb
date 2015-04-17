@@ -36,7 +36,6 @@ module Cielo
         end
         default_transaction_xml(xml, parameters)
       end
-      print message
 
       @connection.make_request! message
     end
